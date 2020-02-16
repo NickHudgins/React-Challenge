@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import GirlCard from './GirlCard';
+import DogsCard from './DogsCard';
+import TroubleCard from './TroubleCard';
+import NavBar from './Components/NavBar';
+import Testimonial from './TestimonialCard';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DogsCard /> */}
+      <NavBar />
+      {GirlCard}
+      {Testimonial}
+      {TroubleCard}
     </div>
   );
-}
+};
+
 
 export default App;
