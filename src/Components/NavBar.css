@@ -1,5 +1,28 @@
-
-
 .NavBar {
-    background-color: red ;
+    background-color:#EF3E42 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 75px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.AdoptMe {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+.logo-website-name {
+    display: flex;
 }
