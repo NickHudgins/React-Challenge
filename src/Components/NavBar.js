@@ -6,8 +6,11 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <div class="NavBar">
+        <div class="logo-website-name">
       <img src={Logo} />
-      <ul class="nav justify-content-end">
+      <div class="AdoptMe">AdoptMe.org</div>
+      </div>
+      <ul class="nav justify-content-end NavBarLinks">
         <li class="nav-item">
           <a class="nav-link active" href="#">
             WHAT we do
