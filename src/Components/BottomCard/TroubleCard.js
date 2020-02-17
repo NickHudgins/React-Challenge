@@ -1,8 +1,8 @@
 import React from 'react';
-import Trouble from './friend-in-trouble.png';
+import Trouble from '../../friend-in-trouble.png';
 import { Card, CardHeader, CardImg, CardBody, CardTitle, CardText, Nav, NavItem, NavLink, Button } from "reactstrap";
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './BottomCard.css'
 
 function TroubleCard() {
     return (

@@ -34,11 +34,11 @@ background-color:#EF3E42;
     opacity: .75; 
 }
 
-  .play-button-outer:hover {
+  .button-play-outer:hover {
     background-color: rgba(0, 0, 0, .5);
   }
   
-  .play-button-outer:hover .play-button {
+  .play-button-outer:hover .button-play {
     opacity: 1;
   }
 
