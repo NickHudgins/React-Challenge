@@ -15,6 +15,7 @@ function TestimonialCard() {
         <div class="testimonial-txt">
           <CardText>Mongi, my best friend who saved my life.</CardText>
         </div>
+        <div class="button-play-outer"></div>
         <button class="button-play"></button>
       </CardImgOverlay>
     </Card>
