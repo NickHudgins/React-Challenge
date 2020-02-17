@@ -1,0 +1,23 @@
+.volunteer-container {
+width: 250px;
+}
+
+.card-header {
+  background-color: #332982;
+  color: white;
+  font-family: sans-serif;
+  font-stretch: condensed;
+  font-weight: 800;
+  text-align: left;
+}
+
+.card-text {
+  text-align: left;
+  font-family: sans-serif;
+  font-stretch: condensed;
+}
+
+.volunteer-button {
+  color: #332982;
+  position: left;
+}

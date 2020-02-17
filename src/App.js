@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import GirlCard from './GirlCard';
+import GirlCard from './Components/VolunteerCard/GirlCard';
 import DogsCard from './Components/TopBanner/DogsCard';
 import TroubleCard from './TroubleCard';
 import NavBar from './Components/NavBar/NavBar';
@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <NavBar />
       <DogsCard />
+      <GirlCard />
       {Testimonial}
       {TroubleCard}
     </div>
