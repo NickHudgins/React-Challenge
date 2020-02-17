@@ -1,4 +1,29 @@
 .dog-image {
-    object-fit: cover;
-    height: 530px;
+  margin: -12% 0;
+  width: 100%;
+  height: auto;
+}
+
+.banner-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.adopt-now-btn {
+    color:#EF3E42;
+}
+
+.dog-card-text {
+    color:#EF3E42;
+    font-size: ;
+}
+
+.btn-text {
+    position: absolute;
+    width: 50%;
+    top: 84%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
 }
