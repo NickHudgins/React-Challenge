@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../logo.png";
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Logo from "../../logo.png";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css";
 
 function NavBar() {

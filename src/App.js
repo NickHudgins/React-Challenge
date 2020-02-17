@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import GirlCard from './GirlCard';
-import DogsCard from './DogsCard';
+import GirlCard from './Components/VolunteerCard/GirlCard';
+import DogsCard from './Components/TopBanner/DogsCard';
 import TroubleCard from './TroubleCard';
-import NavBar from './Components/NavBar';
+import NavBar from './Components/NavBar/NavBar';
 import Testimonial from './TestimonialCard';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -10,9 +10,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* <DogsCard /> */}
       <NavBar />
-      
+      <DogsCard />
+      <GirlCard />
       {Testimonial}
       {TroubleCard}
     </div>
