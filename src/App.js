@@ -10,9 +10,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <DogsCard />
-      <GirlCard /> <Testimonial />
+      <NavBar/>
+      <DogsCard/>
+      <GirlCard/> 
+      <Testimonial/>
     </div>
   );
 };
