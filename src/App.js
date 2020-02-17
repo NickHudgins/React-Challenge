@@ -3,7 +3,7 @@ import GirlCard from './Components/VolunteerCard/GirlCard';
 import DogsCard from './Components/TopBanner/DogsCard';
 import TroubleCard from './TroubleCard';
 import NavBar from './Components/NavBar/NavBar';
-import Testimonial from './TestimonialCard';
+import Testimonial from './Components/TestimonialCard/TestimonialCard';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -12,8 +12,7 @@ function App() {
     <div className="App">
       <NavBar />
       <DogsCard />
-      <GirlCard />
-      {Testimonial}
+      <GirlCard /> <Testimonial />
       {TroubleCard}
     </div>
   );
